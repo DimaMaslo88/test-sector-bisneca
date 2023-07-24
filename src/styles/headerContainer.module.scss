@@ -1,0 +1,7 @@
+@import "variables/variables";
+.headerContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color:$bgColor4 ;
+}

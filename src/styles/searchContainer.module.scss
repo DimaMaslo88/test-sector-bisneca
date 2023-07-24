@@ -1,0 +1,26 @@
+@import "variables/variables";
+.searchContainer{
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  width: 631px;
+  height: 52px;
+  background-color: $bgColor1;
+  .input{
+    border: none;
+    margin-left: 10px;
+    background-color:$bgColor1;
+    color:$bgColor3;
+    font-size: 1.4em;
+  }
+  .input:focus{
+    outline: none;
+  }
+  .input::placeholder{
+    color:$bgColor3;
+    font-size: 1.2em
+  }
+  .icon{
+    padding-left: 300px;
+  }
+}

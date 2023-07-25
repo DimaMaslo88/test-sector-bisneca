@@ -1,0 +1,35 @@
+@import "variables/variables";
+
+.postsContainer {
+  padding-left: 30px;
+
+  .headerContainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+    height: 54px;
+    background-color: $bgColor4;
+
+    .title{
+      padding: 10px;
+      color: $bgColor2
+    }
+
+  }
+
+
+
+}
+
+  .columnID {
+padding: 5px;
+    width: 50px;
+    border: 1px solid #E3E6EC
+  }
+
+  .column {
+padding: 5px;
+    border: 1px solid #E3E6EC
+  }
+
+
+

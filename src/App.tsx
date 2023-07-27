@@ -1,7 +1,7 @@
 import React from 'react';
-import { Content } from 'ui/components/content/Content';
-import { Search } from 'ui/components/searchComponent/Search';
+import {Search} from 'ui/components/searchComponent/Search';
 import './styles/App.module.scss';
+import {Pages} from "ui/pages/Pages";
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
         <div className='main-container'>
             <div>
                 <Search/>
-                <Content/>
+                <Pages/>
             </div>
         </div>
     );

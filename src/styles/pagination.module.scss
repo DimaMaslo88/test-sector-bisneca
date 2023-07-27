@@ -1,0 +1,23 @@
+@import 'variables/variables';
+@import 'mixins/mixins';
+
+.paginationContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 90px;
+  .button{
+   @include text2($titleFontFamily,24px,500);
+  }
+  .pagination {
+
+    .numbers {
+      padding: 5px;
+    }
+
+    .numberActive {
+      padding: 5px;
+      @include text($titleFontFamily, 18px, 700)
+    }
+  }
+}

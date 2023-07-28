@@ -2,6 +2,8 @@
 
 .postsContainer {
   padding-left: 30px;
+  display: flex;
+  width: 100%;
 
   .headerContainer {
     display: grid;
@@ -15,21 +17,42 @@
     }
 
   }
-
-}
-.tr{
-  height: 80px;
-}
+  .tr{
+    height: 80px;
+  }
   .columnID {
-padding: 5px;
+    padding: 5px;
     width: 50px;
     border: 1px solid #E3E6EC
   }
 
   .column {
-padding: 5px;
+    padding: 5px;
     border: 1px solid #E3E6EC
   }
+}
 
 
 
+@media screen and (max-width: 1281px){
+.postsContainer{
+  max-width: 80%;
+}
+
+}
+@media screen and (max-width: 1030px) {
+  .postsContainer {
+    max-width: 75%;
+  }
+}
+@media screen and (max-width: 912px) {
+  .postsContainer {
+    max-width: 70%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .postsContainer {
+    max-width: 55%;
+
+  }
+}

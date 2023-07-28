@@ -24,3 +24,54 @@
     padding-left: 300px;
   }
 }
+
+
+
+@media screen and (max-width: 912px) {
+  .searchContainer{
+    width:450px;
+    .input{
+      border: none;
+      margin-left: 10px;
+      background-color:$bgColor1;
+      color:$bgColor3;
+      font-size: 1.4em;
+    }
+    .input:focus{
+      outline: none;
+    }
+    .input::placeholder{
+      color:$bgColor3;
+      font-size: 1.2em
+    }
+    .icon{
+      padding-left: 130px;
+    }
+  }
+
+
+}
+@media screen and (max-width: 420px) {
+  .searchContainer{
+    width:310px;
+    .input{
+      border: none;
+      margin-left: 10px;
+      background-color:$bgColor1;
+      color:$bgColor3;
+      font-size: 1.4em;
+    }
+    .input:focus{
+      outline: none;
+    }
+    .input::placeholder{
+      color:$bgColor3;
+      font-size: 1.2em
+    }
+    .icon{
+      padding-left: 0px;
+    }
+  }
+
+
+}

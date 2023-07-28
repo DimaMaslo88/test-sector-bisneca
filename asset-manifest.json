@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/test-sector-bisneca/static/css/main.fd20d9d4.css",
+    "main.css": "/test-sector-bisneca/static/css/main.aa5c99f5.css",
     "main.js": "/test-sector-bisneca/static/js/main.3f63d565.js",
     "static/js/787.a270f653.chunk.js": "/test-sector-bisneca/static/js/787.a270f653.chunk.js",
     "index.html": "/test-sector-bisneca/index.html",
-    "main.fd20d9d4.css.map": "/test-sector-bisneca/static/css/main.fd20d9d4.css.map",
+    "main.aa5c99f5.css.map": "/test-sector-bisneca/static/css/main.aa5c99f5.css.map",
     "main.3f63d565.js.map": "/test-sector-bisneca/static/js/main.3f63d565.js.map",
     "787.a270f653.chunk.js.map": "/test-sector-bisneca/static/js/787.a270f653.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd20d9d4.css",
+    "static/css/main.aa5c99f5.css",
     "static/js/main.3f63d565.js"
   ]
 }

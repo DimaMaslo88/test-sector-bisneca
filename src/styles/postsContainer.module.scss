@@ -11,15 +11,17 @@
     height: 54px;
     background-color: $bgColor4;
 
-    .title{
+    .title {
       padding: 10px;
       color: $bgColor2
     }
 
   }
-  .tr{
+
+  .tr {
     height: 80px;
   }
+
   .columnID {
     padding: 5px;
     width: 50px;
@@ -33,26 +35,29 @@
 }
 
 
+@media screen and (max-width: 1281px) {
+  .postsContainer {
+    max-width: 90%;
+  }
 
-@media screen and (max-width: 1281px){
-.postsContainer{
-  max-width: 80%;
 }
 
-}
 @media screen and (max-width: 1030px) {
   .postsContainer {
-    max-width: 75%;
+    max-width: 80%;
+
   }
 }
+
 @media screen and (max-width: 912px) {
   .postsContainer {
     max-width: 70%;
   }
 }
+
 @media screen and (max-width: 400px) {
   .postsContainer {
-    max-width: 55%;
+    max-width: 45%;
 
   }
 }
